@@ -21,19 +21,25 @@ API RESTful construida en Laravel que permite gestionar productos y sus precios 
 ```bash
 git clone https://github.com/gabrielps28/CypherTecnic.git
 cd CypherTecnic
+```
 
+2. Instala el proyecto:
 ```bash
 composer install
+```
 
 ```bash
 php artisan key:generate
+```
 
 ```bash
 php artisan migrate
 php artisan serve
+```
 
 
-1. Clona el repositorio:
+## 📡 Endpoints disponibles
+
 La API estará disponible en:
 📍 http://localhost:8000/api
 
