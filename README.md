@@ -33,7 +33,7 @@ php artisan key:generate
 ```
 
 ```bash
-php artisan migrate
+php artisan migrate --seed
 php artisan serve
 ```
 
